@@ -1,0 +1,18 @@
+{
+  "base": {
+    "logo": "",
+    "project": "qa.guru.diploma.Mobile.Tests",
+    "environment": "PROD",
+    "comment": "Mobile Android UI Tests",
+    "reportLink": "https://qa.guru/",
+    "language": "en",
+    "allureFolder": "allure-report",
+    "enableChart": true,
+    "durationFormat": "HH:mm:ss.SSS"
+  },
+  "telegram": {
+    "token": "ttt",
+    "chat": "ttt",
+    "replyTo": ""
+  }
+}

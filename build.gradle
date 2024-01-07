@@ -56,3 +56,15 @@ tasks.withType(Test) {
         }
     }
 }
+
+task onboarding_tests(type: Test) {
+    useJUnitPlatform{
+        includeTags("Onboarding")
+    }
+}
+
+task search_tests(type: Test) {
+    useJUnitPlatform{
+        includeTags("Search")
+    }
+}

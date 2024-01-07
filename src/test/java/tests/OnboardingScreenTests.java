@@ -2,7 +2,6 @@ package tests;
 
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -12,7 +11,6 @@ import screens.OnboardingScreen;
 import static io.qameta.allure.Allure.step;
 
 @DisplayName("Onboarding")
-@Disabled
 public class OnboardingScreenTests extends BaseTest{
 
     private OnboardingScreen onboardingScreen = new OnboardingScreen();

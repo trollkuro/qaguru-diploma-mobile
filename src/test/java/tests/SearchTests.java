@@ -1,7 +1,6 @@
 package tests;
 
 import io.qameta.allure.Owner;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -13,7 +12,6 @@ import screens.SearchScreen;
 import static io.qameta.allure.Allure.step;
 
 @DisplayName("Search")
-@Disabled
 public class SearchTests extends BaseTest {
 
     private ExploreScreen exploreScreen = new ExploreScreen();
@@ -28,7 +26,6 @@ public class SearchTests extends BaseTest {
 
 
     @Test
-    @Disabled
     @Tag("Search")
     @Owner("kegorova")
     @DisplayName("Successful search: results are returned in the list")
@@ -47,7 +44,6 @@ public class SearchTests extends BaseTest {
 
 
     @Test
-    @Disabled
     @Tag("Search")
     @Owner("kegorova")
     @DisplayName("Search: open article by description")

@@ -17,3 +17,4 @@ settings.gradle
 /gradle/
 /src/test/java/tests/DraftTest.java
 /src/test/resources/apps/
+/notifications/allure-notifications-4.6.1.jar

@@ -22,5 +22,4 @@ public class SearchScreen {
         return Selenide.page(ArticleScreen.class);
     }
 
-
 }

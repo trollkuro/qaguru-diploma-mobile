@@ -1,5 +1,6 @@
 package tests;
 
+import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -27,6 +28,7 @@ public class SearchTests extends BaseTest {
 
     @Test
     @Tag("Search")
+    @Feature("Search")
     @Owner("kegorova")
     @DisplayName("Successful search: results are returned in the list")
     void successfulSearchTest(){
@@ -45,6 +47,7 @@ public class SearchTests extends BaseTest {
 
     @Test
     @Tag("Search")
+    @Feature("Search")
     @Owner("kegorova")
     @DisplayName("Search: open article by description")
     void openArticleAndGetErrorTest(){

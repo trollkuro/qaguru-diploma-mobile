@@ -1,4 +1,5 @@
-# Mobile UI test automation project for [Wikipedia Android App](https://github.com/wikimedia/apps-android-wikipedia/)
+# Mobile test automation project for [Wikipedia App](https://github.com/wikimedia/apps-android-wikipedia/)
+<center><img src="media/logo/wikipedia_logo.png" width="400"></center>
 
 ## Summary
 + [About the project](#about)
@@ -6,6 +7,11 @@
 + [How to run](#launch)
     + [Launch tests on emulator](#local)
     + [Launch tests on browserstack](#remote)
++ [Run in Jenkins](#jenkins)
++ [Telegram Notifications](#telegram)
++ [Report in Allure Report](#allure-report)
++ [Allure TestOps Integration](#allureTO)
++ [Video example of test pass](#video)
 
 <a id="about"></a>
 ## About the project
@@ -96,7 +102,7 @@ List of tests with steps and test artefacts
 <img src="media/screenshots/allure_cases.png"/>
 
 <a id="allureTO"></a>
-## Allure [TestOps Integration]()
+## Allure [TestOps Integration](https://allure.autotests.cloud/project/3926/dashboards)
 >Test-cases in the project are imported and constantly updated from the code, so there is no need in complex process of synchronization manual test-cases and autotests.  
 >It is enough to create and update an autotest in the code and the test-case in TMS always will be in actual state.  
 >Manual test-cases also can be added in TMS in case of need (via web interface or via code).

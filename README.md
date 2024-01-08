@@ -70,16 +70,50 @@ All configurations are described in the `browserstack.properties` and `emulator.
 If needed configurations could be changed in those files.
 
 <a id="jenkins"></a>
-## Run in Jenkins
+## Run in [Jenkins](https://jenkins.autotests.cloud/job/C22-kryastin-diplomaMobile/)
+
+<img src="media/screenshots/Jenkins_common.png"/>
+
+Build with parameters allows to customize your test run. For example, different environments to run.
+
+<img src="media/screenshots/Jenkins_settings.png"/>
 
 <a id="telegram"></a>
 ## Telegram Notifications
 
+Telegram bot sends a brief report to a specified telegram chat by results of each build.
+
+<img src="media/screenshots/Telegram.png"/>
+
 <a id="allure-report"></a>
 ## Report in Allure Report
+Main page with common information
+
+<img src="media/screenshots/allure_common.png"/>
+
+List of tests with steps and test artefacts
+
+<img src="media/screenshots/allure_cases.png"/>
 
 <a id="allureTO"></a>
-## Allure TestOps Integration
+## Allure [TestOps Integration]()
+>Test-cases in the project are imported and constantly updated from the code, so there is no need in complex process of synchronization manual test-cases and autotests.  
+>It is enough to create and update an autotest in the code and the test-case in TMS always will be in actual state.  
+>Manual test-cases also can be added in TMS in case of need (via web interface or via code).
+### Dashboard preview
+
+<img src="media/screenshots/allureTO_dashboard.png"/>  
+
+### Test cases
+
+<img src="media/screenshots/allureTO_cases.png"/>  
+
+### Test runs
+
+<img src="media/screenshots/allureTO_launches.png"/>  
 
 <a id="video"></a>
 ## Video example of test pass
+<p>
+  <img src="media/screenshots/test_pass_emulator.gif" alt="VideoForm" width="600">
+</p>

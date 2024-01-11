@@ -50,8 +50,7 @@ public class LocalDriver implements WebDriverProvider {
 
     private String getAppPath() {
         String appVersion = mobileConfig.getAppVersion();
-        String appUrl = mobileConfig.getAppUrl() +
-                "/releases/download/latest/" + appVersion;
+        String appUrl = mobileConfig.getAppUrl() + appVersion;
         String appPath = "src/test/resources/apps/" + appVersion;
 
         File app = new File(appPath);

@@ -2,7 +2,6 @@ package tests;
 
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -29,7 +28,6 @@ public class SearchTests extends BaseTest {
 
     @Test
     @Tag("Search")
-    @Disabled
     @Feature("Search")
     @Owner("kegorova")
     @DisplayName("Successful search: results are returned in the list")
